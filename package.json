@@ -12,10 +12,8 @@
   },
   "homepage": "https://github.com/hurrymaplelad/metalsmith-teacup",
   "bugs": "https://github.com/hurrymaplelad/metalsmith-teacup/issues",
-  "dependencies": {
-    "teacup": ">=0.4.2"
-  },
   "peerDependencies": {
+    "teacup": ">=0.4.2",
     "coffee-script": ">=1.8.0"
   },
   "devDependencies": {
