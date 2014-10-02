@@ -1,0 +1,30 @@
+{
+  "name": "metalsmith-teacup",
+  "version": "0.0.0",
+  "description": "A metalsmith plugin to render teacup templates",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "contributors": [
+    "Adam Hull <adam@hmlad.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/metalsmith-teacup.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/metalsmith-teacup",
+  "bugs": "https://github.com/hurrymaplelad/metalsmith-teacup/issues",
+  "dependencies": {
+    "teacup": ">=0.4.2"
+  },
+  "peerDependencies": {
+    "coffee-script": ">=1.8.0"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "mocha": "~1.x.x",
+    "assert-dir-equal": "~1.0.1",
+    "metalsmith": "~1.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
