@@ -24,5 +24,8 @@
   },
   "scripts": {
     "test": "mocha"
+  },
+  "dependencies": {
+    "extend": "~2.0.0"
   }
 }

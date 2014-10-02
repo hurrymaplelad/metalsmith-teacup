@@ -8,5 +8,15 @@ describe 'metalsmith-teacup', ->
       .use teacup()
       .build (err) ->
         return done(err) if err
-        equal 'test/fixtures/basic/expected', 'test/fixtures/basic/build'
+        equal 'test/fixtures/basic/build', 'test/fixtures/basic/expected'
+        done()
+
+  it 'should pass metadata into the template', (done) ->
+    Metalsmith('test/fixtures/metadata')
+      .use teacup()
+      .metadata
+        site: name: 'Teacup'
+      .build (err) ->
+        return done(err) if err
+        equal 'test/fixtures/metadata/build', 'test/fixtures/metadata/expected'
         done()
