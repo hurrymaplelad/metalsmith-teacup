@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-teacup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A metalsmith plugin to render teacup templates",
   "author": "Adam Hull <adam@hmlad.com>",
   "contributors": [
